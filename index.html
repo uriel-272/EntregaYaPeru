@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#c91f2c" />
+    <link rel="icon" type="image/png" href="assets/entregaya-logo.png" />
+    <meta
+      name="description"
+      content="EntregaYa Perú: compra, administra y sigue tus pedidos desde una sola plataforma."
+    />
+    <title>EntregaYa Perú | Pedidos simples, entregas felices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js?v=20261103-0450" defer></script>
+  </head>
+  <body>
+    <div class="app-frame">
+      <aside class="sidebar" aria-label="Navegación principal">
+        <a class="brand" href="#" data-view="catalog" aria-label="EntregaYa, inicio">
+          <img class="institution-logo" src="assets/entregaya-logo.png" alt="EntregaYa Perú" />
+          <span class="brand-name">entrega<span>ya</span></span>
+          <span class="brand-country">PERÚ</span>
+        </a>
+
+        <div class="sidebar-label">MENÚ PRINCIPAL</div>
+        <nav class="side-nav" id="main-navigation"></nav>
+
+        <div class="sidebar-help">
+          <div class="help-icon" aria-hidden="true">✳</div>
+          <p>¿Necesitas ayuda?</p>
+          <span>Estamos aquí para ti.</span>
+          <a href="mailto:hola@entregaya.pe">Contáctanos <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <button class="user-card" id="account-switcher" type="button" aria-label="Ver mi cuenta">
+          <span class="avatar avatar-customer" id="user-avatar">US</span>
+          <span class="user-copy">
+            <strong id="user-name">Uriel Vásquez</strong>
+            <span id="user-role">Cliente</span>
+          </span>
+          <span class="switch-icon" aria-hidden="true">⌄</span>
+        </button>
+      </aside>
+
+      <div class="main-column">
+        <header class="topbar">
+          <div class="breadcrumb"><img class="header-logo" src="assets/entregaya-logo.png" alt="EntregaYa Perú" /><span aria-hidden="true">/</span><strong id="breadcrumb-current">Descubrir</strong></div>
+          <div class="topbar-actions">
+            <span class="location-pill"><span aria-hidden="true">⌖</span> Lima, Perú <span aria-hidden="true">⌄</span></span>
+            <button class="icon-button notification-button" type="button" aria-label="Notificaciones">
+              <span aria-hidden="true">♧</span><i></i>
+            </button>
+            <button class="mobile-profile-switch" id="mobile-account-switcher" type="button" aria-label="Ver mi cuenta">
+              <span id="mobile-user-avatar">UV</span>
+            </button>
+            <button class="cart-top-button" id="open-cart" type="button" aria-label="Abrir carrito">
+              <span aria-hidden="true">▱</span><span>Mi carrito</span><span class="cart-count" id="cart-count">0</span>
+            </button>
+          </div>
+        </header>
+
+        <main id="app-main" tabindex="-1"></main>
+
+        <footer class="page-footer">
+          <span>© 2026 EntregaYa Perú</span>
+          <span>Hecho con <span class="heart">♥</span> en Lima</span>
+        </footer>
+      </div>
+      <nav class="mobile-navigation" id="mobile-navigation" aria-label="Navegación móvil"></nav>
+      <div id="overlay-root"></div>
+    </div>
+
+    <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EntregaYaApiApplication<entregaya-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/backend",
+            "mainClass": "pe.entregaya.api.EntregaYaApiApplication",
+            "projectName": "entregaya-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/backend/.env"
+        }
+    ]
+}

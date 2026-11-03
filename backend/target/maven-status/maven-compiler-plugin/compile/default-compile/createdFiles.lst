@@ -1,0 +1,8 @@
+pe\entregaya\api\usuario\UsuarioRepository.class
+pe\entregaya\api\usuario\Rol$Nombre.class
+pe\entregaya\api\usuario\Usuario.class
+pe\entregaya\api\health\HealthController.class
+pe\entregaya\api\config\WebConfig.class
+pe\entregaya\api\api\DeliveryController.class
+pe\entregaya\api\usuario\Rol.class
+pe\entregaya\api\EntregaYaApiApplication.class
